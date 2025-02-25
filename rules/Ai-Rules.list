@@ -1,0 +1,48 @@
+  # ========== Google Gemini ==========
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com    # 核心API
+  - DOMAIN-SUFFIX,palm.googleapis.com,                 # 旧版API入口
+  - DOMAIN-SUFFIX,ai.google.dev                        # 开发者门户
+  - DOMAIN-SUFFIX,gemini.google.com                    # 网页端服务
+  - DOMAIN-SUFFIX,gemini-preview.storage.googleapis.com    # 资源存储
+  - DOMAIN-KEYWORD,vertexai                            # Google Vertex AI关联服务
+
+  # ========== OpenAI ChatGPT ==========
+  - DOMAIN-SUFFIX,openai.com                           # 主域名
+  - DOMAIN-SUFFIX,chat.openai.com                      # 聊天界面
+  - DOMAIN-SUFFIX,api.openai.com                       # 核心API
+  - DOMAIN-SUFFIX,chatgpt.com                          # 备用域名
+  - DOMAIN-SUFFIX,platform.openai.com                  # 管理控制台
+  - DOMAIN-SUFFIX,oaistatic.com                        # 静态资源CDN
+  - DOMAIN-SUFFIX,oaiusercontent.com                   # 用户内容存储
+  - DOMAIN,events.statsigapi.net                       # 数据分析服务
+  - DOMAIN-SUFFIX,intercom.io                          # 用户支持系统
+
+  # ========== GitHub Copilot ==========
+  - DOMAIN-SUFFIX,github.com                           # 主站
+  - DOMAIN-SUFFIX,api.github.com                       # REST API
+  - DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com    # 代码建议服务
+  - DOMAIN-SUFFIX,githubassets.com                     # 静态资源
+  - DOMAIN-SUFFIX,github.blog                          # 官方博客
+  - DOMAIN-SUFFIX,githubapp.com                        # 应用服务
+
+  # ========== Microsoft Copilot ==========
+  - DOMAIN-SUFFIX,copilot.microsoft.com                # 网页端入口
+  - DOMAIN-SUFFIX,copilot-windows.microsoft.com        # Windows集成服务
+  - DOMAIN-SUFFIX,bing.com                             # 搜索集成
+  - DOMAIN-SUFFIX,edgeservices.bing.com                # 边缘服务
+  - DOMAIN-SUFFIX,assets.msn.com                       # 内容资源
+  - DOMAIN-SUFFIX,api.bing.microsoft.com               # 企业级API
+
+  # ========== 通用AI服务 ==========
+  - DOMAIN-SUFFIX,anthropic.com                        # Claude
+  - DOMAIN-SUFFIX,claude.ai                            # Claude网页端
+  - DOMAIN-SUFFIX,perplexity.ai                        # 搜索增强AI
+  - DOMAIN-SUFFIX,cohere.com                           # 文本生成API
+  - DOMAIN-SUFFIX,midjourney.com                       # 图像生成服务
+  - DOMAIN-SUFFIX,stability.ai                         # Stable Diffusion
+
+  # ========== 辅助服务 ==========
+  - DOMAIN-SUFFIX,cloudflare.com                       # CDN及防护服务
+  - DOMAIN-SUFFIX,fastly.net                           # 边缘计算节点
+  - DOMAIN-SUFFIX,sentry.io                            # 错误监控
+  - DOMAIN-SUFFIX,launchdarkly.com                     # 功能开关服务
